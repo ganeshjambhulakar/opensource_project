@@ -15,10 +15,6 @@ $query="INSERT INTO `assign`(`firstName`, `lastName`,`email`)
 
 
 
-//$query="INSERT INTO `assign`(`firstName`,`lastName,`email`)
-
- //	values (`$firstName`,`lastName`,`$email`)";
-
 
 
 $status=mysqli_query($conn,$query);
